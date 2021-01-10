@@ -40,7 +40,7 @@ hr.bendy-line {
   border-style: solid;
   border-color: #a5a000;
   border-width: 1px 0 0 0;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 hr.bendy-line:before {
@@ -51,7 +51,7 @@ hr.bendy-line:before {
   border-style: solid;
   border-color: #a5a000;
   border-width: 0 0 1px 0;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .btn {
