@@ -1,0 +1,73 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background: url(images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+  max-width: 100%;
+}
+
+h1 {
+  color: #ff00c3;
+  font-size: 4.5rem;
+  font-family: "Monoton", cursive;
+}
+
+p {
+  font-size: medium;
+  color: #fff;
+}
+
+.store {
+  font-family: "Pacifico", cursive;
+  font-size: 2rem;
+  color: #ff6f00;
+}
+
+hr {
+  max-width: 175px;
+}
+
+hr.bendy-line {
+  height: 30px;
+  border-style: solid;
+  border-color: #a5a000;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+
+hr.bendy-line:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #a5a000;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 250px;
+  text-transform: uppercase;
+  padding: 15px 25px;
+}
+
+.btn-dark {
+  background-color: rgb(43, 43, 43);
+  border-color: rgb(43, 43, 43);
+}
+
+.btn-dark:hover {
+  background-color: rgb(43, 43, 43);
+  border-color: #fff700;
+  color: #ff6f00;
+}
